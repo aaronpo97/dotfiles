@@ -1,0 +1,57 @@
+{
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[dockerfile]": { "editor.defaultFormatter": "ms-azuretools.vscode-docker" },
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[latex]": { "editor.defaultFormatter": "mathematic.vscode-latex" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+
+  "editor.fontLigatures": false,
+  "editor.fontSize": 20,
+  "editor.fontFamily": "'Kode Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.inlayHints.fontSize": 1,
+
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "telemetry.telemetryLevel": "off",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.tree.indent": 40,
+  "workbench.tree.renderIndentGuides": "always",
+
+  "explorer.confirmDragAndDrop": false,
+
+  "window.zoomLevel": 0,
+
+  "files.associations": { ".env": "env" },
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}

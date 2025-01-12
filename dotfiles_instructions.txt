@@ -1,0 +1,3 @@
+To use this dotfiles directory, you must install GNU Stow.
+
+After installing GNU Stow, you can run `stow .` in this directory which will create a symbolic link to your dotfiles in the home directory.
