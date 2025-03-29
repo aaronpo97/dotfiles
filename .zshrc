@@ -16,13 +16,3 @@ source ./emsdk_env.sh
 # cd back to the original directory
 cd $CWD
 
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="essembeh"
-
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
-
-
-
