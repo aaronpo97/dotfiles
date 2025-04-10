@@ -14,14 +14,10 @@
 
   "editor.fontLigatures": false,
   "editor.fontSize": 20,
-  "editor.fontFamily": "'Kode Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.inlayHints.fontSize": 1,
 
   "terminal.integrated.fontSize": 18,
   "debug.console.fontSize": 18,
@@ -38,7 +34,13 @@
   "workbench.preferredHighContrastColorTheme": "Night Owl",
 
   "explorer.confirmDragAndDrop": false,
+
   "window.zoomLevel": 0,
 
-  "files.associations": { ".env": "env" }
+  "files.associations": {
+    ".env": "env"
+  },
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": { "*": false },
+  "git.openRepositoryInParentFolders": "always"
 }
