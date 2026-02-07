@@ -3,5 +3,5 @@
 ```
 stow git
 stow zsh
-stow config
+stow --target=$HOME/.config vscode
 ```
