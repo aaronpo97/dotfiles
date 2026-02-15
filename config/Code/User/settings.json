@@ -25,11 +25,11 @@
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   "editor.suggestSelection": "first",
   "editor.quickSuggestions": {
-    "strings": true
+    "strings": true,
   },
 
   // Files
@@ -69,54 +69,54 @@
    **/
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
 
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "[h]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format",
   },
   "[hpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format",
   },
 
   "C_Cpp.formatting": "clangFormat",
@@ -129,11 +129,14 @@
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
   "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit",
-      "source.fixAll": "explicit"
-    }
-  }
+      "source.fixAll": "explicit",
+    },
+  },
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
